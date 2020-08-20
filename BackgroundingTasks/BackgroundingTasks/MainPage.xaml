@@ -8,9 +8,9 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button Text="Start Long Running Task" x:Name="longRunningTask" />
+        <Button Text="Stop Long Running Task" x:Name="stopLongRunningTask" />
+        <Label Text="" x:Name="ticker" FontSize="Large" HorizontalOptions="CenterAndExpand"  />
     </StackLayout>
 
 </ContentPage>
